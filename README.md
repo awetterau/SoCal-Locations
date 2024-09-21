@@ -17,9 +17,9 @@ SoCal Locations is an iOS app designed to help users discover, explore, and shar
 
 <table>
   <tr>
-    <td><img src="https://via.placeholder.com/250" alt="Map View" /></td>
-    <td><img src="https://via.placeholder.com/250" alt="List View" /></td>
-    <td><img src="https://via.placeholder.com/250" alt="Location Details" /></td>
+    <td><img src="https://github.com/awetterau/SoCal-Locations/blob/main/SoCal%20Locations/Assets.xcassets/Screenshots/MapView.jpg" alt="Map View" /></td>
+    <td><img src="https://github.com/awetterau/SoCal-Locations/blob/main/SoCal%20Locations/Assets.xcassets/Screenshots/ListView.jpg" alt="List View" /></td>
+    <td><img src="https://github.com/awetterau/SoCal-Locations/blob/main/SoCal%20Locations/Assets.xcassets/Screenshots/NewLocationView.jpg" alt="New Location View" /></td>
   </tr>
 </table>
 

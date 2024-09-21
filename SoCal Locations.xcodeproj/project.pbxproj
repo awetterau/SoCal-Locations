@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F30DDBB02C9F3E1A00A97EAD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F30DDBAF2C9F3E1A00A97EAD /* FirebaseAuth */; };
+		F30DDBB22C9F3E2600A97EAD /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F30DDBB12C9F3E2600A97EAD /* FirebaseDatabase */; };
+		F30DDBB42C9F3E2D00A97EAD /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F30DDBB32C9F3E2D00A97EAD /* FirebaseFirestore */; };
+		F30DDBB62C9F3E3400A97EAD /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = F30DDBB52C9F3E3400A97EAD /* FirebaseMessaging */; };
+		F30DDBB82C9F3E3A00A97EAD /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F30DDBB72C9F3E3A00A97EAD /* FirebaseStorage */; };
+		F3F7BEC02975EE97001FE531 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3F7BEBF2975EE97001FE531 /* GoogleService-Info.plist */; };
+		F3FA737829752A7F005B1111 /* SoCal_LocationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA737729752A7F005B1111 /* SoCal_LocationsApp.swift */; };
+		F3FA737A29752A7F005B1111 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA737929752A7F005B1111 /* ContentView.swift */; };
+		F3FA737C29752A80005B1111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3FA737B29752A80005B1111 /* Assets.xcassets */; };
+		F3FA737F29752A80005B1111 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3FA737E29752A80005B1111 /* Preview Assets.xcassets */; };
+		F3FA738929752A80005B1111 /* SoCal_LocationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA738829752A80005B1111 /* SoCal_LocationsTests.swift */; };
+		F3FA739329752A80005B1111 /* SoCal_LocationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA739229752A80005B1111 /* SoCal_LocationsUITests.swift */; };
+		F3FA739529752A80005B1111 /* SoCal_LocationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA739429752A80005B1111 /* SoCal_LocationsUITestsLaunchTests.swift */; };
+		F3FA73AC29752B26005B1111 /* filterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA73A129752B26005B1111 /* filterView.swift */; };
+		F3FA73AE29752B26005B1111 /* SendLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA73A329752B26005B1111 /* SendLocationView.swift */; };
+		F3FA73AF29752B26005B1111 /* mainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA73A529752B26005B1111 /* mainModel.swift */; };
+		F3FA73B029752B26005B1111 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA73A629752B26005B1111 /* MapView.swift */; };
+		F3FA73B329752B26005B1111 /* LocationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA73A929752B26005B1111 /* LocationsList.swift */; };
+		F3FA73B429752B26005B1111 /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA73AA29752B26005B1111 /* PlaceView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3FA738529752A80005B1111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3FA736C29752A7F005B1111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3FA737329752A7F005B1111;
+			remoteInfo = "SoCal Locations";
+		};
+		F3FA738F29752A80005B1111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3FA736C29752A7F005B1111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3FA737329752A7F005B1111;
+			remoteInfo = "SoCal Locations";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3F7BEBF2975EE97001FE531 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F3F7BEC129761E0A001FE531 /* SoCal-Locations-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SoCal-Locations-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F3FA737429752A7F005B1111 /* SoCal Locations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SoCal Locations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FA737729752A7F005B1111 /* SoCal_LocationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoCal_LocationsApp.swift; sourceTree = "<group>"; };
+		F3FA737929752A7F005B1111 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3FA737B29752A80005B1111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3FA737E29752A80005B1111 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3FA738429752A80005B1111 /* SoCal LocationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoCal LocationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FA738829752A80005B1111 /* SoCal_LocationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoCal_LocationsTests.swift; sourceTree = "<group>"; };
+		F3FA738E29752A80005B1111 /* SoCal LocationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoCal LocationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FA739229752A80005B1111 /* SoCal_LocationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoCal_LocationsUITests.swift; sourceTree = "<group>"; };
+		F3FA739429752A80005B1111 /* SoCal_LocationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoCal_LocationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3FA73A129752B26005B1111 /* filterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = filterView.swift; sourceTree = "<group>"; };
+		F3FA73A329752B26005B1111 /* SendLocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendLocationView.swift; sourceTree = "<group>"; };
+		F3FA73A529752B26005B1111 /* mainModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainModel.swift; sourceTree = "<group>"; };
+		F3FA73A629752B26005B1111 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F3FA73A929752B26005B1111 /* LocationsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsList.swift; sourceTree = "<group>"; };
+		F3FA73AA29752B26005B1111 /* PlaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3FA737129752A7F005B1111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30DDBB62C9F3E3400A97EAD /* FirebaseMessaging in Frameworks */,
+				F30DDBB22C9F3E2600A97EAD /* FirebaseDatabase in Frameworks */,
+				F30DDBB02C9F3E1A00A97EAD /* FirebaseAuth in Frameworks */,
+				F30DDBB82C9F3E3A00A97EAD /* FirebaseStorage in Frameworks */,
+				F30DDBB42C9F3E2D00A97EAD /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FA738129752A80005B1111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FA738B29752A80005B1111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3939D042C9F361700C6BF8D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3FA73A129752B26005B1111 /* filterView.swift */,
+				F3FA73A629752B26005B1111 /* MapView.swift */,
+				F3FA73A929752B26005B1111 /* LocationsList.swift */,
+				F3FA73AA29752B26005B1111 /* PlaceView.swift */,
+				F3FA73A329752B26005B1111 /* SendLocationView.swift */,
+				F3FA737929752A7F005B1111 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3F7BEBC29753404001FE531 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3FA736B29752A7F005B1111 = {
+			isa = PBXGroup;
+			children = (
+				F3FA737629752A7F005B1111 /* SoCal Locations */,
+				F3FA738729752A80005B1111 /* SoCal LocationsTests */,
+				F3FA739129752A80005B1111 /* SoCal LocationsUITests */,
+				F3FA737529752A7F005B1111 /* Products */,
+				F3F7BEBC29753404001FE531 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3FA737529752A7F005B1111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3FA737429752A7F005B1111 /* SoCal Locations.app */,
+				F3FA738429752A80005B1111 /* SoCal LocationsTests.xctest */,
+				F3FA738E29752A80005B1111 /* SoCal LocationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3FA737629752A7F005B1111 /* SoCal Locations */ = {
+			isa = PBXGroup;
+			children = (
+				F3FA73A429752B26005B1111 /* Model */,
+				F3939D042C9F361700C6BF8D /* Views */,
+				F3F7BEC129761E0A001FE531 /* SoCal-Locations-Info.plist */,
+				F3FA737729752A7F005B1111 /* SoCal_LocationsApp.swift */,
+				F3F7BEBF2975EE97001FE531 /* GoogleService-Info.plist */,
+				F3FA737B29752A80005B1111 /* Assets.xcassets */,
+				F3FA737D29752A80005B1111 /* Preview Content */,
+			);
+			path = "SoCal Locations";
+			sourceTree = "<group>";
+		};
+		F3FA737D29752A80005B1111 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3FA737E29752A80005B1111 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3FA738729752A80005B1111 /* SoCal LocationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3FA738829752A80005B1111 /* SoCal_LocationsTests.swift */,
+			);
+			path = "SoCal LocationsTests";
+			sourceTree = "<group>";
+		};
+		F3FA739129752A80005B1111 /* SoCal LocationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3FA739229752A80005B1111 /* SoCal_LocationsUITests.swift */,
+				F3FA739429752A80005B1111 /* SoCal_LocationsUITestsLaunchTests.swift */,
+			);
+			path = "SoCal LocationsUITests";
+			sourceTree = "<group>";
+		};
+		F3FA73A429752B26005B1111 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3FA73A529752B26005B1111 /* mainModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3FA737329752A7F005B1111 /* SoCal Locations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3FA739829752A80005B1111 /* Build configuration list for PBXNativeTarget "SoCal Locations" */;
+			buildPhases = (
+				F3FA737029752A7F005B1111 /* Sources */,
+				F3FA737129752A7F005B1111 /* Frameworks */,
+				F3FA737229752A7F005B1111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SoCal Locations";
+			packageProductDependencies = (
+				F30DDBAF2C9F3E1A00A97EAD /* FirebaseAuth */,
+				F30DDBB12C9F3E2600A97EAD /* FirebaseDatabase */,
+				F30DDBB32C9F3E2D00A97EAD /* FirebaseFirestore */,
+				F30DDBB52C9F3E3400A97EAD /* FirebaseMessaging */,
+				F30DDBB72C9F3E3A00A97EAD /* FirebaseStorage */,
+			);
+			productName = "SoCal Locations";
+			productReference = F3FA737429752A7F005B1111 /* SoCal Locations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3FA738329752A80005B1111 /* SoCal LocationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3FA739B29752A80005B1111 /* Build configuration list for PBXNativeTarget "SoCal LocationsTests" */;
+			buildPhases = (
+				F3FA738029752A80005B1111 /* Sources */,
+				F3FA738129752A80005B1111 /* Frameworks */,
+				F3FA738229752A80005B1111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3FA738629752A80005B1111 /* PBXTargetDependency */,
+			);
+			name = "SoCal LocationsTests";
+			productName = "SoCal LocationsTests";
+			productReference = F3FA738429752A80005B1111 /* SoCal LocationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3FA738D29752A80005B1111 /* SoCal LocationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3FA739E29752A80005B1111 /* Build configuration list for PBXNativeTarget "SoCal LocationsUITests" */;
+			buildPhases = (
+				F3FA738A29752A80005B1111 /* Sources */,
+				F3FA738B29752A80005B1111 /* Frameworks */,
+				F3FA738C29752A80005B1111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3FA739029752A80005B1111 /* PBXTargetDependency */,
+			);
+			name = "SoCal LocationsUITests";
+			productName = "SoCal LocationsUITests";
+			productReference = F3FA738E29752A80005B1111 /* SoCal LocationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3FA736C29752A7F005B1111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F3FA737329752A7F005B1111 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F3FA738329752A80005B1111 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F3FA737329752A7F005B1111;
+					};
+					F3FA738D29752A80005B1111 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F3FA737329752A7F005B1111;
+					};
+				};
+			};
+			buildConfigurationList = F3FA736F29752A7F005B1111 /* Build configuration list for PBXProject "SoCal Locations" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3FA736B29752A7F005B1111;
+			packageReferences = (
+				F30DDBAE2C9F3DF700A97EAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = F3FA737529752A7F005B1111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3FA737329752A7F005B1111 /* SoCal Locations */,
+				F3FA738329752A80005B1111 /* SoCal LocationsTests */,
+				F3FA738D29752A80005B1111 /* SoCal LocationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3FA737229752A7F005B1111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FA737F29752A80005B1111 /* Preview Assets.xcassets in Resources */,
+				F3FA737C29752A80005B1111 /* Assets.xcassets in Resources */,
+				F3F7BEC02975EE97001FE531 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FA738229752A80005B1111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FA738C29752A80005B1111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3FA737029752A7F005B1111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FA73B029752B26005B1111 /* MapView.swift in Sources */,
+				F3FA73AF29752B26005B1111 /* mainModel.swift in Sources */,
+				F3FA737A29752A7F005B1111 /* ContentView.swift in Sources */,
+				F3FA73B429752B26005B1111 /* PlaceView.swift in Sources */,
+				F3FA737829752A7F005B1111 /* SoCal_LocationsApp.swift in Sources */,
+				F3FA73AE29752B26005B1111 /* SendLocationView.swift in Sources */,
+				F3FA73B329752B26005B1111 /* LocationsList.swift in Sources */,
+				F3FA73AC29752B26005B1111 /* filterView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FA738029752A80005B1111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FA738929752A80005B1111 /* SoCal_LocationsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FA738A29752A80005B1111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FA739529752A80005B1111 /* SoCal_LocationsUITestsLaunchTests.swift in Sources */,
+				F3FA739329752A80005B1111 /* SoCal_LocationsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3FA738629752A80005B1111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3FA737329752A7F005B1111 /* SoCal Locations */;
+			targetProxy = F3FA738529752A80005B1111 /* PBXContainerItemProxy */;
+		};
+		F3FA739029752A80005B1111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3FA737329752A7F005B1111 /* SoCal Locations */;
+			targetProxy = F3FA738F29752A80005B1111 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F3FA739629752A80005B1111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3FA739729752A80005B1111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3FA739929752A80005B1111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoCal Locations/Preview Content\"";
+				DEVELOPMENT_TEAM = 8CZH7D925T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SoCal-Locations-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take Pictures";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need it";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose Pictures";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SoCal-Locations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3FA739A29752A80005B1111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoCal Locations/Preview Content\"";
+				DEVELOPMENT_TEAM = 8CZH7D925T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SoCal-Locations-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take Pictures";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need it";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose Pictures";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SoCal-Locations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3FA739C29752A80005B1111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7H8GNLSKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Greg-Wetterau.SoCal-LocationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoCal Locations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoCal Locations";
+			};
+			name = Debug;
+		};
+		F3FA739D29752A80005B1111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7H8GNLSKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Greg-Wetterau.SoCal-LocationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoCal Locations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoCal Locations";
+			};
+			name = Release;
+		};
+		F3FA739F29752A80005B1111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7H8GNLSKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Greg-Wetterau.SoCal-LocationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SoCal Locations";
+			};
+			name = Debug;
+		};
+		F3FA73A029752A80005B1111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7H8GNLSKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Greg-Wetterau.SoCal-LocationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SoCal Locations";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3FA736F29752A7F005B1111 /* Build configuration list for PBXProject "SoCal Locations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FA739629752A80005B1111 /* Debug */,
+				F3FA739729752A80005B1111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3FA739829752A80005B1111 /* Build configuration list for PBXNativeTarget "SoCal Locations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FA739929752A80005B1111 /* Debug */,
+				F3FA739A29752A80005B1111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3FA739B29752A80005B1111 /* Build configuration list for PBXNativeTarget "SoCal LocationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FA739C29752A80005B1111 /* Debug */,
+				F3FA739D29752A80005B1111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3FA739E29752A80005B1111 /* Build configuration list for PBXNativeTarget "SoCal LocationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FA739F29752A80005B1111 /* Debug */,
+				F3FA73A029752A80005B1111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F30DDBAE2C9F3DF700A97EAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F30DDBAF2C9F3E1A00A97EAD /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F30DDBAE2C9F3DF700A97EAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F30DDBB12C9F3E2600A97EAD /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F30DDBAE2C9F3DF700A97EAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		F30DDBB32C9F3E2D00A97EAD /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F30DDBAE2C9F3DF700A97EAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F30DDBB52C9F3E3400A97EAD /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F30DDBAE2C9F3DF700A97EAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		F30DDBB72C9F3E3A00A97EAD /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F30DDBAE2C9F3DF700A97EAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F3FA736C29752A7F005B1111 /* Project object */;
+}
